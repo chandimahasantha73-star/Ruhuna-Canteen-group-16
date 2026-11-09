@@ -1,0 +1,17 @@
+:root{
+    --dark-green:rgb(7, 47, 7);
+    --white:rgb(252, 251, 251);
+}
+
+*{margin:0; padding:0; box-sizing:border-box;}
+
+.header a{color:var(--white);text-decoration: none;}
+
+.header{ background-color:var(--dark-green); color:var(--white);display:flex; justify-content:space-between ; align-items:center ;height: 50px;  }
+
+.main_image{background-image:url("/University-Canteen-Website-group-16/image/IMG_20261108_112242_662.png");
+    background-position:center; background-size: cover;
+    height:400px;color:var(--white);}
+
+.footer{background-color:var(--dark-green); height:57px;color:var(--white);}
+.social-icons{font-size:30px;color:white;}
