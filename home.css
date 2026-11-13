@@ -1,17 +1,71 @@
 :root{
     --dark-green:rgb(7, 47, 7);
-    --white:rgb(252, 251, 251);
+    --white:#ffff;
+    --cream:#f8f6ef;
+    --yellow: #ffcc4d;
+
+
 }
 
-*{margin:0; padding:0; box-sizing:border-box;}
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+}
 
-.header a{color:var(--white);text-decoration: none;}
+.header a{color:var(--white);text-decoration: none;padding-bottom:6px;}
 
 .header{ background-color:var(--dark-green); color:var(--white);display:flex; justify-content:space-between ; align-items:center ;height: 50px;  }
 
-.main_image{background-image:url("/Ruhuna-Canteen-group-16/image/IMG_20261108_112242_662.png");
+.main_image{
+    display:flex;
+    align-items:center;
+    padding:35px;
+    background-image:url("/Ruhuna-Canteen-group-16/image/IMG_20261108_112242_662.png");
     background-position:center; background-size: cover;
-    height:400px;color:var(--white);}
+    height:400px;
+    color:var(--white);}
 
+.highlights{height:270px;}
+.highlights-title{
+                display: flex;
+                align-items:center;
+                justify-content:center ;
+}
+.highlights-title h2{
+    color:var(--dark-green);
+    font: size 32px;
+}
+.highlights-title span{
+    height: 2px;
+    background-color:var(--dark-green);
+    flex:0.7;
+}
+.service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top:100px;
+
+    gap: 8px;
+    padding: 10px;
+
+    text-align: center;
+    color: #222;
+    font-size: 13px;
+}
+.service-item:not(:first-child) {
+    border-left: 2px solid #9c9c36;
+}
+.service-icon{color:var(--dark-green);font-size: x-large;}
+.service-text{font-size:large;color:var(--dark-green);}
 .footer{background-color:var(--dark-green); height:57px;color:var(--white);}
-.social-icons{font-size:30px;color:white;}
