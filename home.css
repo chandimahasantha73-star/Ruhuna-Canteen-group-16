@@ -21,7 +21,7 @@
     display:flex;
     align-items:center;
     padding:35px;
-    background-image:url("/Ruhuna-Canteen-group-16/image/IMG_20261108_112242_662.png");
+    background-image:url("IMG_20261108_112242_662.png");
     background-position:center; background-size: cover;
     height:400px;
     color:var(--white);}
