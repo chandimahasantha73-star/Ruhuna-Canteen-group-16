@@ -13,12 +13,22 @@
     box-sizing:border-box;
 }
 
-.header a{color:var(--white);text-decoration: none;margin-left:20px;position:relative;left:1000px;}
+.header a{
+    color:var(--white);
+    text-decoration: none;
+    margin-left:20px;
+    position:relative;
+    left:1000px;
+}
 
-.header{ background-color:var(--dark-green); color:var(--white);display:flex;align-items:center ;height: 50px;  }
+.header{ background-color:var(--dark-green);
+    color:var(--white);
+    display:flex;
+    align-items:center ;
+    height: 50px; 
+}
 
 
-/* Hero Section */
 .main_image {
     display: flex;
     flex-direction: column;
