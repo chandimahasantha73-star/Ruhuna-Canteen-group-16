@@ -33,7 +33,7 @@
     color:var(--white);
     display:flex;
     align-items:center ;
-    height: 50px; 
+    height: 60px; 
 }
 
 
@@ -88,7 +88,7 @@
 
 /* Highlights Section */
 .highlights {
-    height: 210px;
+    height: 200px;
     background-color: var(--cream);
     padding: 15px 15px;
 }
