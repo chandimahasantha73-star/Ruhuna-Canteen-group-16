@@ -26,7 +26,8 @@ body {
     padding:15px 40px;
     max-height: 60px; 
 }
-
+.logo-icon{font-size: xx-large;align-items: center;}
+.header p{font-size: larger;align-items: center;font-weight: bolder;}
 nav ul {
       list-style: none;
       display: flex;
@@ -54,7 +55,7 @@ nav a:hover{
     align-items: flex-start;
     justify-content: center;
 
-    padding: 30px;
+    padding: 60px;
     min-height:430px;
 
     background-image:
@@ -70,7 +71,7 @@ nav a:hover{
 .main_image h1 {
     font-size: 35px;
     line-height: 1.1;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /* Subtitle */
@@ -80,12 +81,13 @@ nav a:hover{
 }
 
 /* Explore Menu Button */
-.main_image button {
+.main_image a{
     background-color: var(--yellow);
     color: #222;
 
     border: none;
     border-radius: 25px;
+    text-decoration: none;
 
     padding: 10px 20px;
 
