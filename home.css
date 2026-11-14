@@ -24,7 +24,7 @@ body {
     align-items:center ;
     justify-content:space-between;
     padding:15px 40px;
-    height: 60px; 
+    max-height: 60px; 
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav a:hover{
     justify-content: center;
 
     padding: 30px;
-    height: 470px;
+    min-height:430px;
 
     background-image:
         linear-gradient(to right, rgba(0, 0, 0, 0.55), transparent),
