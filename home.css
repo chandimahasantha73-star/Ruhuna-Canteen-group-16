@@ -21,6 +21,13 @@
     left:1000px;
 }
 
+.header a:hover,
+.header .active {
+      color: #ffffff;
+      border-bottom: 3px solid #e6c656;
+} 
+
+
 .header{ background-color:var(--dark-green);
     color:var(--white);
     display:flex;
