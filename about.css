@@ -79,7 +79,7 @@ main {
       letter-spacing: 1px;
       text-transform: uppercase;
       margin-bottom: 12px;
-      
+      border-bottom: 5px solid #e6c656; 
 }
 
 .about-text h1 {
@@ -148,6 +148,12 @@ footer {
       font-size: 1.1rem;
       text-decoration: none;
       transition: opacity 0.4s;
+}
+@media(max-width:768px) {
+      main {
+            flex-direction:column;
+            padding: 40px 20px;
+      }
 }
  
 
